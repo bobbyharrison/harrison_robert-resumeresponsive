@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+body {
+max-width: 960px;
+height: 100%;
+margin: auto;
+text-align: center;
+}
+h2 {
+font-size: 36px;
+}
+
+/* HEADER */
+.header {
+display: inline;
+}
+h1 {
+font-size: 72px;
+float: left;
+}
+.headerlist {
+text-align: right;
+padding-top: 30px;
+}
+.border {
+border-width: 1px;
+border-color: black;
+border-style: solid;
+margin: 20px 0px 20px 0px;
+}
+
+/* GOALS */
+.goalslist li {
+margin: 15px;
+}
+.obj {
+padding: 50px;
+}
+
+/* SKILLS/EDUCATION */
+.ed-skill {
+display: flex;
+}
+.education {
+width: 480px;
+}
+.skills {
+width: 400px;
+padding-left: 90px;
+}
+.skills li {
+margin: 15px;
+}
+.edu {
+margin-top: 15px;
+text-align: left;
+}
+
+/* WORK */
+h4 {
+font-size: 21px;
+text-align: center;
+}
+.work {
+}
+.fourdog,
+.highland {
+padding-top: 40px;
+display: flex;
+width: 400px;
+flex-direction: column;
+}
+.works {
+display: flex;
+flex-direction: row;
+}
+.highland {
+padding-left: 140px;
+}
+.highland li {
+margin: 15px;
+}
+.fourdog li {
+margin: 15px;
+}
+
+/* VOLUNTEER */
+.volunteer {
+}
+.para1,
+.para2{
+text-align: left;
+padding-top: 40px;
+display: flex;
+width: 400px;
+flex-direction: column;
+}
+.experience {
+display: flex;
+flex-direction: row;
+}
+.para2 {
+padding-left: 140px;
+}
+
+/* HOBBY */
+.hobbyp{
+margin-top: 40px;
+text-align: left;
+}
